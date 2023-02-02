@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8084FBAD298BCED900A737CF /* PocerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8084FBAC298BCED900A737CF /* PocerApp.swift */; };
+		8084FBAF298BCED900A737CF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8084FBAE298BCED900A737CF /* ContentView.swift */; };
+		8084FBB1298BCEDA00A737CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8084FBB0298BCEDA00A737CF /* Assets.xcassets */; };
+		8084FBB4298BCEDA00A737CF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8084FBB3298BCEDA00A737CF /* Preview Assets.xcassets */; };
+		8084FBBE298BCEDA00A737CF /* PocerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8084FBBD298BCEDA00A737CF /* PocerTests.swift */; };
+		8084FBC8298BCEDB00A737CF /* PocerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8084FBC7298BCEDB00A737CF /* PocerUITests.swift */; };
+		8084FBCA298BCEDB00A737CF /* PocerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8084FBC9298BCEDB00A737CF /* PocerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8084FBBA298BCEDA00A737CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8084FBA1298BCED900A737CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8084FBA8298BCED900A737CF;
+			remoteInfo = Pocer;
+		};
+		8084FBC4298BCEDB00A737CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8084FBA1298BCED900A737CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8084FBA8298BCED900A737CF;
+			remoteInfo = Pocer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8084FBA9298BCED900A737CF /* Pocer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pocer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8084FBAC298BCED900A737CF /* PocerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PocerApp.swift; sourceTree = "<group>"; };
+		8084FBAE298BCED900A737CF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8084FBB0298BCEDA00A737CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8084FBB3298BCEDA00A737CF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8084FBB9298BCEDA00A737CF /* PocerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PocerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8084FBBD298BCEDA00A737CF /* PocerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PocerTests.swift; sourceTree = "<group>"; };
+		8084FBC3298BCEDB00A737CF /* PocerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PocerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8084FBC7298BCEDB00A737CF /* PocerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PocerUITests.swift; sourceTree = "<group>"; };
+		8084FBC9298BCEDB00A737CF /* PocerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PocerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8084FBA6298BCED900A737CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8084FBB6298BCEDA00A737CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8084FBC0298BCEDB00A737CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8084FBA0298BCED900A737CF = {
+			isa = PBXGroup;
+			children = (
+				8084FBAB298BCED900A737CF /* Pocer */,
+				8084FBBC298BCEDA00A737CF /* PocerTests */,
+				8084FBC6298BCEDB00A737CF /* PocerUITests */,
+				8084FBAA298BCED900A737CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8084FBAA298BCED900A737CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8084FBA9298BCED900A737CF /* Pocer.app */,
+				8084FBB9298BCEDA00A737CF /* PocerTests.xctest */,
+				8084FBC3298BCEDB00A737CF /* PocerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8084FBAB298BCED900A737CF /* Pocer */ = {
+			isa = PBXGroup;
+			children = (
+				8084FBAC298BCED900A737CF /* PocerApp.swift */,
+				8084FBAE298BCED900A737CF /* ContentView.swift */,
+				8084FBB0298BCEDA00A737CF /* Assets.xcassets */,
+				8084FBB2298BCEDA00A737CF /* Preview Content */,
+			);
+			path = Pocer;
+			sourceTree = "<group>";
+		};
+		8084FBB2298BCEDA00A737CF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8084FBB3298BCEDA00A737CF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8084FBBC298BCEDA00A737CF /* PocerTests */ = {
+			isa = PBXGroup;
+			children = (
+				8084FBBD298BCEDA00A737CF /* PocerTests.swift */,
+			);
+			path = PocerTests;
+			sourceTree = "<group>";
+		};
+		8084FBC6298BCEDB00A737CF /* PocerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8084FBC7298BCEDB00A737CF /* PocerUITests.swift */,
+				8084FBC9298BCEDB00A737CF /* PocerUITestsLaunchTests.swift */,
+			);
+			path = PocerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8084FBA8298BCED900A737CF /* Pocer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8084FBCD298BCEDB00A737CF /* Build configuration list for PBXNativeTarget "Pocer" */;
+			buildPhases = (
+				8084FBA5298BCED900A737CF /* Sources */,
+				8084FBA6298BCED900A737CF /* Frameworks */,
+				8084FBA7298BCED900A737CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pocer;
+			productName = Pocer;
+			productReference = 8084FBA9298BCED900A737CF /* Pocer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8084FBB8298BCEDA00A737CF /* PocerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8084FBD0298BCEDB00A737CF /* Build configuration list for PBXNativeTarget "PocerTests" */;
+			buildPhases = (
+				8084FBB5298BCEDA00A737CF /* Sources */,
+				8084FBB6298BCEDA00A737CF /* Frameworks */,
+				8084FBB7298BCEDA00A737CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8084FBBB298BCEDA00A737CF /* PBXTargetDependency */,
+			);
+			name = PocerTests;
+			productName = PocerTests;
+			productReference = 8084FBB9298BCEDA00A737CF /* PocerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8084FBC2298BCEDB00A737CF /* PocerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8084FBD3298BCEDB00A737CF /* Build configuration list for PBXNativeTarget "PocerUITests" */;
+			buildPhases = (
+				8084FBBF298BCEDB00A737CF /* Sources */,
+				8084FBC0298BCEDB00A737CF /* Frameworks */,
+				8084FBC1298BCEDB00A737CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8084FBC5298BCEDB00A737CF /* PBXTargetDependency */,
+			);
+			name = PocerUITests;
+			productName = PocerUITests;
+			productReference = 8084FBC3298BCEDB00A737CF /* PocerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8084FBA1298BCED900A737CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					8084FBA8298BCED900A737CF = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					8084FBB8298BCEDA00A737CF = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 8084FBA8298BCED900A737CF;
+					};
+					8084FBC2298BCEDB00A737CF = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 8084FBA8298BCED900A737CF;
+					};
+				};
+			};
+			buildConfigurationList = 8084FBA4298BCED900A737CF /* Build configuration list for PBXProject "Pocer" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8084FBA0298BCED900A737CF;
+			productRefGroup = 8084FBAA298BCED900A737CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8084FBA8298BCED900A737CF /* Pocer */,
+				8084FBB8298BCEDA00A737CF /* PocerTests */,
+				8084FBC2298BCEDB00A737CF /* PocerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8084FBA7298BCED900A737CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8084FBB4298BCEDA00A737CF /* Preview Assets.xcassets in Resources */,
+				8084FBB1298BCEDA00A737CF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8084FBB7298BCEDA00A737CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8084FBC1298BCEDB00A737CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8084FBA5298BCED900A737CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8084FBAF298BCED900A737CF /* ContentView.swift in Sources */,
+				8084FBAD298BCED900A737CF /* PocerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8084FBB5298BCEDA00A737CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8084FBBE298BCEDA00A737CF /* PocerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8084FBBF298BCEDB00A737CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8084FBCA298BCEDB00A737CF /* PocerUITestsLaunchTests.swift in Sources */,
+				8084FBC8298BCEDB00A737CF /* PocerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8084FBBB298BCEDA00A737CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8084FBA8298BCED900A737CF /* Pocer */;
+			targetProxy = 8084FBBA298BCEDA00A737CF /* PBXContainerItemProxy */;
+		};
+		8084FBC5298BCEDB00A737CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8084FBA8298BCED900A737CF /* Pocer */;
+			targetProxy = 8084FBC4298BCEDB00A737CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8084FBCB298BCEDB00A737CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8084FBCC298BCEDB00A737CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8084FBCE298BCEDB00A737CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Pocer/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "koto-takahashi.Pocer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8084FBCF298BCEDB00A737CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Pocer/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "koto-takahashi.Pocer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8084FBD1298BCEDB00A737CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "koto-takahashi.PocerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pocer.app/Pocer";
+			};
+			name = Debug;
+		};
+		8084FBD2298BCEDB00A737CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "koto-takahashi.PocerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pocer.app/Pocer";
+			};
+			name = Release;
+		};
+		8084FBD4298BCEDB00A737CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "koto-takahashi.PocerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Pocer;
+			};
+			name = Debug;
+		};
+		8084FBD5298BCEDB00A737CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "koto-takahashi.PocerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Pocer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8084FBA4298BCED900A737CF /* Build configuration list for PBXProject "Pocer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8084FBCB298BCEDB00A737CF /* Debug */,
+				8084FBCC298BCEDB00A737CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8084FBCD298BCEDB00A737CF /* Build configuration list for PBXNativeTarget "Pocer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8084FBCE298BCEDB00A737CF /* Debug */,
+				8084FBCF298BCEDB00A737CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8084FBD0298BCEDB00A737CF /* Build configuration list for PBXNativeTarget "PocerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8084FBD1298BCEDB00A737CF /* Debug */,
+				8084FBD2298BCEDB00A737CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8084FBD3298BCEDB00A737CF /* Build configuration list for PBXNativeTarget "PocerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8084FBD4298BCEDB00A737CF /* Debug */,
+				8084FBD5298BCEDB00A737CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8084FBA1298BCED900A737CF /* Project object */;
+}
