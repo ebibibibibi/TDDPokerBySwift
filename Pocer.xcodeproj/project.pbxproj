@@ -14,6 +14,7 @@
 		8084FBBE298BCEDA00A737CF /* PocerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8084FBBD298BCEDA00A737CF /* PocerTests.swift */; };
 		8084FBC8298BCEDB00A737CF /* PocerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8084FBC7298BCEDB00A737CF /* PocerUITests.swift */; };
 		8084FBCA298BCEDB00A737CF /* PocerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8084FBC9298BCEDB00A737CF /* PocerUITestsLaunchTests.swift */; };
+		8084FBD7298BD17100A737CF /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8084FBD6298BD17100A737CF /* CardModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		8084FBC3298BCEDB00A737CF /* PocerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PocerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8084FBC7298BCEDB00A737CF /* PocerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PocerUITests.swift; sourceTree = "<group>"; };
 		8084FBC9298BCEDB00A737CF /* PocerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PocerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8084FBD6298BD17100A737CF /* CardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				8084FBAC298BCED900A737CF /* PocerApp.swift */,
 				8084FBAE298BCED900A737CF /* ContentView.swift */,
+				8084FBD6298BD17100A737CF /* CardModel.swift */,
 				8084FBB0298BCEDA00A737CF /* Assets.xcassets */,
 				8084FBB2298BCEDA00A737CF /* Preview Content */,
 			);
@@ -259,6 +262,7 @@
 			files = (
 				8084FBAF298BCED900A737CF /* ContentView.swift in Sources */,
 				8084FBAD298BCED900A737CF /* PocerApp.swift in Sources */,
+				8084FBD7298BD17100A737CF /* CardModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

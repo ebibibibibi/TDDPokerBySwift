@@ -10,6 +10,15 @@ import XCTest
 
 class PocerTests: XCTestCase {
 
+    func testInitializeCard()
+    {
+        let card = Card(suit: .heart, rank: .three)
+        
+        XCTAssertEqual(card.suit, .heart)
+        XCTAssertEqual(card.rank, .three)
+        
+    }
+    
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
     }
