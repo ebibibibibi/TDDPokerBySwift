@@ -14,7 +14,6 @@ struct Card {
         case spade
         case heart
     }
-    
     enum Rank {
         case one
         case two
