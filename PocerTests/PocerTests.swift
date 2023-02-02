@@ -17,6 +17,11 @@ class PocerTests: XCTestCase {
         XCTAssertEqual(card.suit, .heart)
         XCTAssertEqual(card.rank, .three)
         
+        let card2 = Card(suit: .spade, rank: .jack)
+        
+        XCTAssertEqual(card2.suit, .spade)
+        XCTAssertEqual(card2.rank, .jack)
+        
     }
     
     override func setUpWithError() throws {
@@ -43,3 +48,7 @@ class PocerTests: XCTestCase {
     }
 
 }
+
+
+// この時点で、「Cardを定義してインスタンスを作成する」ための消すとケースはひとつしか存在しない。
+// 他のRankやSuitを代入してインスタンスを作成しても成功するのか検証を行う。
