@@ -14,6 +14,7 @@ struct Card {
         case club = "♧"
         case diamond = "♢"
     }
+    
     enum Rank: String {
         case ace = "A"
         case two = "2"
@@ -36,4 +37,9 @@ struct Card {
     var notation: String {
         return rank.rawValue + suit.rawValue
     }
+    
+    func hasSomeSuit(_ card: Card) -> Bool {
+        return suit == card.suit
+    }
+    
 }
