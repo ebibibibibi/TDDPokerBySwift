@@ -32,6 +32,17 @@ class PocerTests: XCTestCase {
         XCTAssertFalse(card3.hasSomeSuit(card4))
     }
     
+    func testHasSomeRank() {
+        let card = Card(suit: .heart, rank: .ace)
+        let card2 = Card(suit: .heart, rank: .two)
+        XCTAssertTrue(card.hasSomeRank(card2))
+        
+        let card3 = Card(suit: .spade, rank: .ace)
+        let card4 = Card(suit: .heart, rank: .two)
+        
+        XCTAssertFalse(card3.hasSomeRank(card4))
+    }
+    
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
     }

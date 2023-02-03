@@ -42,4 +42,7 @@ struct Card {
         return suit == card.suit
     }
     
+    func hasSomeRank(_ card: Card) -> Bool {
+        return rank == card.rank
+    }
 }
