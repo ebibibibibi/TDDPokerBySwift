@@ -9,27 +9,16 @@ import XCTest
 @testable import Pocer
 
 class PocerTests: XCTestCase {
-
-    func testInitializeCard()
-    {
-        var card: Card
-        
-        card = Card(suit: .heart, rank: .three)
-        
-        XCTAssertEqual(card.suit, .heart)
-        XCTAssertEqual(card.rank, .three)
-        
-        card = Card(suit: .spade, rank: .jack)
-        
-        XCTAssertEqual(card.suit, .spade)
-        XCTAssertEqual(card.rank, .jack)
-        
-    }
     
     func testCardNotation() {
-        let card = Card(suit: .heart, rank: .three)
+        var card: Card
+        // Cardが適切に初期化され、インスタンスが保持されているのかを確認する。
         
+        card = Card(suit: .heart, rank: .three)
         XCTAssertEqual(card.notation, "3♡")
+        
+        card = Card(suit: .spade, rank: .jack)
+        XCTAssertEqual(card.notation, "J♠︎")
     }
     
     override func setUpWithError() throws {
