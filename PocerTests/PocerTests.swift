@@ -26,6 +26,12 @@ class PocerTests: XCTestCase {
         
     }
     
+    func testCardNotation() {
+        let card = Card(suit: .heart, rank: .three)
+        
+        XCTAssertEqual(card.notation, "3♡")
+    }
+    
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
     }
@@ -54,3 +60,5 @@ class PocerTests: XCTestCase {
 
 // この時点で、「Cardを定義してインスタンスを作成する」ための消すとケースはひとつしか存在しない。
 // 他のRankやSuitを代入してインスタンスを作成しても成功するのか検証を行う。
+
+// まず最初にベタ書きで良いので、テストケースが通る実装を考える。
