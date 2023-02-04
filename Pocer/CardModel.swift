@@ -38,17 +38,17 @@ struct Card: Equatable {
         return rank.rawValue + suit.rawValue
     }
     
-//    static func == (lhs: Card, rhs: Card) -> Bool {
-//        return
-//        lhs.hasSomeRank(rhs) &&
-//        lhs.hasSomeSuit(rhs)
-//    }
-    
     func hasSomeSuit(_ card: Card) -> Bool {
         return suit == card.suit
     }
     
     func hasSomeRank(_ card: Card) -> Bool {
         return rank == card.rank
+    }
+    
+    static func == (lhs: Card, rhs: Card) -> Bool {
+        return
+        lhs.hasSomeRank(rhs) &&
+        lhs.hasSomeSuit(rhs)
     }
 }

@@ -57,6 +57,14 @@ class PocerTests: XCTestCase {
         )
     }
     
+    func testIsPair() {
+        let card1 = Card(suit: .spade, rank: .king)
+        let card2 = Card(suit: .heart, rank: .king)
+        let hand = Hand(cards: [card1, card2])
+        
+        XCTAssertTrue(hand.isPair)
+    }
+    
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
     }
