@@ -32,9 +32,9 @@ class PocerTests: XCTestCase {
         XCTAssertFalse(card3.hasSomeSuit(card4))
     }
     
-    func testHasSomeRank() {
+    func testHasSomeCard() {
         let card = Card(suit: .heart, rank: .ace)
-        let card2 = Card(suit: .heart, rank: .two)
+        let card2 = Card(suit: .heart, rank: .ace)
         XCTAssertTrue(card.hasSomeRank(card2))
         
         let card3 = Card(suit: .spade, rank: .ace)
@@ -43,14 +43,28 @@ class PocerTests: XCTestCase {
         XCTAssertFalse(card3.hasSomeRank(card4))
     }
     
+    // テストに意図を語らせる、必要な条件をテストに明記して、それをもとに実装を作成する。
+    func testCardEqual() {
+        var card1: Card
+        var card2: Card
+        
+        XCTAssertEqual(Card(suit: .club, rank: .jack)
+                       , Card(suit: .club, rank: .jack)
+        )
+        
+        XCTAssertNotEqual(Card(suit: .diamond, rank: .queen)
+                          , Card(suit: .club, rank: .jack)
+        )
+    }
+    
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
     }
-
+    
     override func tearDownWithError() throws {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
-
+    
     func testExample() throws {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
@@ -58,14 +72,14 @@ class PocerTests: XCTestCase {
         // Mark your test throws to produce an unexpected failure when your test encounters an uncaught error.
         // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
     }
-
+    
     func testPerformanceExample() throws {
         // This is an example of a performance test case.
         self.measure {
             // Put the code you want to measure the time of here.
         }
     }
-
+    
 }
 
 
