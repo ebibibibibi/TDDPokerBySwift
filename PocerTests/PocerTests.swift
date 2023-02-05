@@ -61,8 +61,39 @@ class PocerTests: XCTestCase {
         let card1 = Card(suit: .spade, rank: .king)
         let card2 = Card(suit: .heart, rank: .king)
         let hand = Hand(cards: [card1, card2])
-        
         XCTAssertTrue(hand.isPair)
+        
+        let card3 = Card(suit: .spade, rank: .queen)
+        let card4 = Card(suit: .heart, rank: .king)
+        let hand2 = Hand(cards: [card3, card4])
+        XCTAssertFalse(hand2.isPair)
+        
+    }
+    
+    func testIsFlush() {
+        let card1 = Card(suit: .spade, rank: .king)
+        let card2 = Card(suit: .heart, rank: .king)
+        let hand = Hand(cards: [card1, card2])
+        XCTAssertTrue(hand.isFlush)
+        
+        let card3 = Card(suit: .spade, rank: .queen)
+        let card4 = Card(suit: .heart, rank: .king)
+        let hand2 = Hand(cards: [card3, card4])
+        XCTAssertFalse(hand2.isFlush)
+        
+    }
+    
+    func testIsHighcard() {
+        let card1 = Card(suit: .spade, rank: .king)
+        let card2 = Card(suit: .heart, rank: .king)
+        let hand = Hand(cards: [card1, card2])
+        XCTAssertTrue(hand.isHighcard)
+        
+        let card3 = Card(suit: .spade, rank: .queen)
+        let card4 = Card(suit: .heart, rank: .king)
+        let hand2 = Hand(cards: [card3, card4])
+        XCTAssertFalse(hand2.isHighcard)
+        
     }
     
     override func setUpWithError() throws {

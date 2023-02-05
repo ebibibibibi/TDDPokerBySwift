@@ -47,8 +47,6 @@ struct Card: Equatable {
     }
     
     static func == (lhs: Card, rhs: Card) -> Bool {
-        return
-        lhs.hasSomeRank(rhs) &&
-        lhs.hasSomeSuit(rhs)
+        return lhs.hasSomeRank(rhs) && lhs.hasSomeSuit(rhs)
     }
 }
